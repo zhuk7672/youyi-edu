@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "module": "ESNext", // 或 "ESNext"、"Node16" 等
+    "target": "ES2020",
+    "moduleResolution": "bundler",
+    "lib": [
+      "ES2020",
+      "DOM",
+      "DOM.Iterable"
+    ],
+    "baseUrl": ".", // 基础路径
+    "paths": {
+      "@/*": [
+        "src/*"
+      ] // 匹配 vite.config.ts 的别名配置
+    }
+  }
+}
