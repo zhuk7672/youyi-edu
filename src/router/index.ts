@@ -59,7 +59,19 @@ const router = createRouter({
           name: 'SetUp',
           component: () => import('@/views/SetUp.vue')
         },
-       
+
+        {
+          path: '/setup',
+          name: 'SetUp',
+          component: () => import('@/views/SetUp.vue')
+        },
+        {
+          path: '/commodityDetails',
+          name: 'CommodityDetails',
+          component: () => import('@/views/CommodityDetails.vue')
+        },
+
+
       ]
     },
     {
