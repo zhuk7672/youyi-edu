@@ -11,6 +11,7 @@ const router = createRouter({
       path: '/login',
       name: 'login',
       component: () => import('@/views/Login.vue'),
+      // done
       meta: {
         title: '登录界面'
       },
@@ -19,6 +20,7 @@ const router = createRouter({
       path: '/home',
       name: 'home',
       component: () => import('@/views/Home.vue'),
+      // done
       meta: {
         title: '主页'
       },
@@ -28,21 +30,25 @@ const router = createRouter({
           path: '/changepwd',
           name: 'ChangePwd',
           component: () => import('@/views/ChangePwd.vue')
+          // done
         },
         {
           path: '/home',
           name: 'HomePage',
           component: () => import('@/views/HomePage.vue')
+          // done
         },
         {
           path: '/teachers',
           name: 'TeacherIntroduce',
           component: () => import('@/views/TeacherIntroduce.vue')
+          // done
         },
         {
           path: '/mycourses',
           name: 'MyCourses',
           component: () => import('@/views/MyCourses.vue')
+          // done
         },
         {
           path: '/reservationpage',

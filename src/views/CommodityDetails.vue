@@ -264,6 +264,7 @@ const age = ref('')
         align-items center
         justify-content center
         height 37px
+        padding 0
         border-radius 5px
         border 1px solid #d1d1d1
         .button
