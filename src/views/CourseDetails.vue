@@ -28,12 +28,13 @@
       </div>
     </div>
     <div class="line w93">
-      <div class="publicTitle font-18"><strong>老师点评</strong></div>
-      <el-input v-model="textarea" style="width: 100%; font-size: 18px; background:#fafafa;" :rows="6" type="textarea"
-        placeholder="老师课后点评" resize="none" />
+      <div class="publicTitle2 font-18"><strong>老师点评</strong></div>
+      <textarea class="txt" name="" id="" placeholder="老师课后点评"></textarea>
+      <!-- <el-input v-model="textarea" style="width: 100%; font-size: 18px; background:#fafafa;" :rows="6" type="textarea"
+        placeholder="老师课后点评" resize="none" /> -->
     </div>
     <div class="line w93">
-      <div class="publicTitle font-18"><strong>作业</strong></div>
+      <div class="publicTitle2 font-18"><strong>作业</strong></div>
       <div class="table">
         <table>
           <tbody>
@@ -66,9 +67,11 @@
       </div>
     </div>
     <div class="line w93">
-      <div class="publicTitle font-18"><strong>学生评价</strong></div>
-      <el-input v-model="textarea" style="width: 100%; font-size: 18px;background:#fafafa;" :rows="6" type="textarea"
-        placeholder="请输入您的评价" resize="none" />
+      <div class="publicTitle2 font-18"><strong>学生评价</strong></div>
+      <!-- <el-input v-model="textarea" style="width: 100%; font-size: 18px;background:#fafafa;" :rows="6" type="textarea"
+        placeholder="请输入您的评价" resize="none" /> -->
+      <textarea class="txt" name="" id="" placeholder="请输入您的评价"></textarea>
+
     </div>
     <div class="submit font-22 color-white bg02 fwb">提 交</div>
     <div class="null"></div>
@@ -137,7 +140,17 @@ const textarea2 = ref('')
 
 .line
   margin-top 20px
-.publicTitle
+  .txt
+    width 100%
+    height 170px
+    border-radius 10px
+    padding 30px
+    font-size 18px
+    color #000
+    background-color #fafafa
+    border 1px solid #e4e4e4
+.publicTitle2
+  margin-bottom 20px
   strong
     position relative
     padding 20px

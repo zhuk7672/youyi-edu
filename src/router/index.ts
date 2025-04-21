@@ -59,16 +59,25 @@ const router = createRouter({
           name: 'SetUp',
           component: () => import('@/views/SetUp.vue')
         },
-
-        {
-          path: '/setup',
-          name: 'SetUp',
-          component: () => import('@/views/SetUp.vue')
-        },
         {
           path: '/commodityDetails',
           name: 'CommodityDetails',
           component: () => import('@/views/CommodityDetails.vue')
+        },
+        {
+          path: '/oderpay',
+          name: 'OderPay',
+          component: () => import('@/views/OderPay.vue')
+        },
+        {
+          path: '/confirmorder',
+          name: 'ConfirmOrder',
+          component: () => import('@/views/ConfirmOrder.vue')
+        },
+        {
+          path: '/lessondetails',
+          name: 'LessonDetails',
+          component: () => import('@/views/LessonDetails.vue')
         },
 
 
