@@ -16,6 +16,14 @@ const router = createRouter({
       },
     },
     {
+      path: '/PrincipalSheet',
+      name: 'PrincipalSheet',
+      component: () => import('@/views/PrincipalSheet.vue'),
+      meta: {
+        title: '首页'
+      },
+    },
+    {
       path: '/home',
       name: 'home',
       component: () => import('@/views/Home.vue'),
